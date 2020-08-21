@@ -15,7 +15,9 @@ const Title:React.FC<TitleProps> = (props: TitleProps) => {
   return (
     <div styleName="title-container">
       <div styleName="title">
-        {props.title}
+        <a href="">
+         {props.title}
+        </a>
       </div>
       <div styleName="content">
         <div styleName="cover">
